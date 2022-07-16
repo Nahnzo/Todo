@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(97, 100, 100);
+}
+
+.text {
+  width: 346px;
+  max-height: 300px;
+  border: 2px solid black;
+  padding-left: 10px;
+}
+.remove {
+  width: 100px;
+}
+.out {
+  height: 30px;
+  width: 356px;
+  background-color: rgb(235, 231, 231);
+  border: 2px solid black;
+}
+.wrapper {
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+  margin: auto;
+  background-color: aliceblue;
+}
+.input {
+  color: rgb(20, 20, 20);
+}
+.input:hover,
+.input:focus {
+  outline: none;
+}
+.add {
+  cursor: pointer;
+  background-color: rgb(23, 221, 5);
+}
+.remove {
+  background-color: red;
+
+  cursor: pointer;
+}
