@@ -19,7 +19,7 @@ addButton.addEventListener("click", () => {
   if (out.textContent == "") {
      out.innerHTML = "";
     dela.innerHTML = "Незаконченные дела : " + 0;
-    step--;
+    step = step;
   }
 });
 
